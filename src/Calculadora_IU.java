@@ -128,6 +128,10 @@ public class Calculadora_IU extends javax.swing.JFrame {
 
     private void btnRestarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRestarActionPerformed
         // TODO add your handling code here:
+        double nro1 = Double.parseDouble(txtNro1.getText());
+        double nro2 = Double.parseDouble(txtNro2.getText());
+        double suma= nro1-nro2;
+        JOptionPane.showMessageDialog(this, "LA SUMA ES:" +suma);
     }//GEN-LAST:event_btnRestarActionPerformed
 
     private void btnMultiplicarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultiplicarActionPerformed
